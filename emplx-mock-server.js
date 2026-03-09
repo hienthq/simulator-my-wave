@@ -820,10 +820,10 @@ h1{font-size:22px;font-weight:700;color:#f8fafc;margin-bottom:2px}
   </p>
   <form method="GET" action="/api/simulate">
     <div class="sim-row">
-      <div class="sim-label">HRF Callback URL</div>
+      <div class="sim-label">HRF Redirect URL</div>
       <input class="sim-input" type="text" name="redirect_uri"
-        placeholder="http://localhost:8080/auth/emplx-sso/callback"
-        value="http://localhost:8080/auth?provider=emplx">
+        placeholder="https://dev.hrforte.com/auth/emplx-sso/callback"
+        value="https://dev.hrforte.com/auth?provider=emplx">
     </div>
     <div class="sim-row">
       <div class="sim-label">Scenario</div>
